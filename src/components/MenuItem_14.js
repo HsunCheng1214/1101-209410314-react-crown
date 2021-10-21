@@ -2,6 +2,7 @@ import React from 'react';
 import './MenuItem_14';
 
 const MenuItem_14 = ({ name, remoteUrl, size }) => {
+  
   return (
     <div className={`${size} menu-item`}>
       <img className="background-image" src={remoteUrl} alt="" />

@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import{BrowserRouter} from 'react-router-dom';
 import './index.css';
 import App_14 from './App_14';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App_14 />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
